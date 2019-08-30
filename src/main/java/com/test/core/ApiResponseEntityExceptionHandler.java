@@ -32,6 +32,8 @@ public class ApiResponseEntityExceptionHandler {
 
 	private static final String MALFORM_REQ_BODY_ERROR = "Malformed JSON request body.";
 	private static final String MALFORM_REQ_BODY_META_INFO = "Please check input/form body.";
+	private static final String MALFORM_REQ_BODY_META_INFO1 = "Please check input/form body.";
+
 	
 	@ResponseStatus(value = HttpStatus.NOT_FOUND)
 	@ExceptionHandler({NoHandlerFoundException.class})
